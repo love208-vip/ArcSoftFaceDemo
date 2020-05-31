@@ -79,7 +79,6 @@ public class FaceEngineServiceImpl implements FaceEngineService {
 
 
         faceEngineObjectPool = new GenericObjectPool(new FaceEngineFactory(sdkLibPath, appId, sdkKey, engineConfiguration), poolConfig);//底层库算法对象池
-
     }
 
 
